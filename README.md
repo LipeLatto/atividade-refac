@@ -1,5 +1,11 @@
 # API de Livros
 
+## Refatoração realizada
+
+A API agora separa controller, serviço, estratégias de desconto, relatório e promoção por contratos específicos. A descrição dos princípios SOLID aplicados, comportamentos preservados e correções está em [REFATORACAO.md](REFATORACAO.md).
+
+Execute os testes com `gradlew.bat test` no Windows ou `./gradlew test` em outros sistemas, usando JDK 22. O projeto original da atividade usava JDK 21; nesta versão, o Gradle está configurado para JDK 22.
+
 ## Objetivo
 
 Esta API foi desenvolvida propositalmente com diversos problemas de arquitetura e violações dos princípios SOLID estudados em aula.

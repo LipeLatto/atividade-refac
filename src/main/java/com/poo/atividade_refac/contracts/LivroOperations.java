@@ -12,14 +12,4 @@ public interface LivroOperations {
     Livro atualizar(Long id, Livro livro);
 
     void remover(Long id);
-
-    void gerarRelatorio();
-
-    void exportarPdf();
-
-    void enviarEmailPromocional();
-
-    void sincronizarComERP();
-
-    void gerarEtiqueta();
 }
